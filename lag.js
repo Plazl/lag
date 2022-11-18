@@ -21,8 +21,7 @@ function batteryPercent() {
 function burnBattery() {
  while (1==1) {
    lag+=2;
-     document.getElementById("lag").innerHTML = Math.acosh(lag)
- }
+     document.getElementById("lag").innerHTML = lag *= Math.acosh(lag+Math.random(22)*4)/lag
 }
 setInterval(function(update) {
  batteryPercent();
